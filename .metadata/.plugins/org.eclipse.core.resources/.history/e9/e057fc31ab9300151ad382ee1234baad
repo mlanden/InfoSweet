@@ -1,0 +1,8 @@
+import javax.swing.JPanel;
+
+
+public class Dashboard extends JPanel {
+	Dashboard(){
+		setSize(500, 500);
+	}
+}
