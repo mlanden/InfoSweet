@@ -52,7 +52,7 @@ public class Dashboard extends JPanel {
 				Open();
 			}else if(e.getSource() == sort){
 				String home = System.getProperty("user.home");
-				Utilities.sortFiles(home);
+				worker.sortFiles(home);
 			}
 		}
 		
