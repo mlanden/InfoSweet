@@ -7,6 +7,7 @@ public class Driver {
 		JFrame main = new JFrame();
 		main.setContentPane(new Dashboard());
 		main.pack();
+		main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		main.setVisible(true);
 	}
 
