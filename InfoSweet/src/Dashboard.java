@@ -1,20 +1,17 @@
 import java.awt.Dimension;
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
 
 public class Dashboard extends JPanel {
 	private JLabel folderNaame;
 	private JButton browse, sort;
 	Dashboard(){
 		JPanel folder = new JPanel();
-		setPreferredSize(new Dimension(500, 500));
+//		setPreferredSize(new Dimension(500, 500));
 		//setLayout(new GridLayout(0,2));
 		folderNaame = new JLabel("Main storage folder");
 		folder.add(folderNaame);
