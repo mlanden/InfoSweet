@@ -8,8 +8,9 @@ public class Utilities {
 		mainFolder = name;
 	}
 	public void sortFiles(String folder){
-		if(folder.contains(mainFolder))
+		if(folder.equals(mainFolder))
 			return;
+		
 		File foldr = new File(folder);
 		File[] contents = foldr.listFiles();
 		if(contents == null)
