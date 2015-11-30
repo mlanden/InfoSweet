@@ -6,11 +6,12 @@ public class Utilities {
 	private String mainFolder;
 	public Utilities(String name) {
 		mainFolder = name;
+		System.out.println(mainFolder);
 	}
 	public void sortFiles(String folder){
 		if(folder.equals(mainFolder))
 			return;
-		
+		System.out.println(folder);
 		File foldr = new File(folder);
 		File[] contents = foldr.listFiles();
 		if(contents == null)
